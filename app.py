@@ -109,8 +109,8 @@ def createAgentSetup(niche, location="Brazil"):
 # Gradio Interface
 
 
-def run_crewai(niche, location):
-    crew_result = createAgentSetup(niche, location)
+def run_crewai(Niche, location):
+    crew_result = createAgentSetup(Niche, location)
     return crew_result
 
 
